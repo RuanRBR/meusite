@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("crystalhelix.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(4px); /* Aplica o efeito de blur */
+    z-index: -1; /* Coloca o fundo atrás do conteúdo */
+}
+header{
+    text-align: center;
+    color: rgb(0, 255, 0);
+    background-color: rgb(83, 0, 0);
+    padding: 20px 60px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo{
+    z-index: 1;
+}
+.guts{
+    justify-content: end;
+    padding-left: 25%;
+       
+
+}
+
+footer{
+    padding: 0px;
+    margin: 0px;
+    padding: 50px 60px;
+    color: green;
+    background-color: rgb(0, 0, 0);
+}
+ul{
+    padding-left: 2%;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+a{
+    color: white;
+}
